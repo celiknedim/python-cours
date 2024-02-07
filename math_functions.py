@@ -25,8 +25,8 @@ def is_prime(N):
 # premiers jumeaux (deux nombres premiers dont la différence est de 2) 
 # jusqu'à un certain nombre N ?
 
-def jumaux(n):
-    twins = []
-    for num in range(2, n):
-        if is_prime(num) and is_prime(num + 2):
+# def jumaux(n):
+#     twins = []
+#     for num in range(2, n):
+#         if is_prime(num) and is_prime(num + 2):
             
